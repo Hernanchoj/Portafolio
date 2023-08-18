@@ -1,8 +1,13 @@
 /* Estilos generales */
 .contacto {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 2.1875rem;
     background-color: #000;
-    color: #fff;
-    padding: 2rem 1rem; /* Reducción del relleno horizontal en pantallas pequeñas */
+    
+    padding: 2rem 1rem;
     text-align: center;
 }
 
@@ -13,7 +18,7 @@
 
 /* Formulario de contacto */
 .formulario-contacto {
-    max-width: 400px;
+    max-width: 300px; /* Reducción del ancho del formulario */
     margin: 0 auto;
 }
 
@@ -35,12 +40,10 @@
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {
     .formulario-contacto {
-        max-width: 100%; /* Ajustar el ancho máximo en pantallas pequeñas */
+        max-width: 100%;
     }
 
     .contacto {
-        padding: 2rem 0; /* Restaurar el relleno horizontal en pantallas pequeñas */
+        padding: 2rem 0;
     }
 }
-
-

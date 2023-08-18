@@ -1,0 +1,37 @@
+.banner-titulo {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    color: #fdfdfd;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 0;
+    overflow: hidden;
+
+    animation: typing 5s steps(21) 1s forwards, blink .5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    to {
+        width: 100%; /* Cambio a 100% para que el texto se escriba completamente */
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Nuevas reglas para hacer el texto más responsivo */
+@media screen and (max-width: 768px) {
+    .banner-titulo {
+        font-size: 2rem;
+    }
+}

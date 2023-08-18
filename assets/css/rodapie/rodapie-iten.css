@@ -1,0 +1,33 @@
+/* Estilos para los elementos del pie de página */
+.rodapie__item {
+    list-style: none;
+}
+
+/* Estilos para el icono en el pie de página */
+.rodapie__icon {
+    margin-right: 1.25rem;
+}
+
+/* Estilos para la descripción en el pie de página */
+.rodapie__descripcion {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #8C8888;
+    align-items: center;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .rodapie__descripcion {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    
+    .rodapie__icon {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,13 @@
+/* Ocultar el logo en pantallas pequeñas */
+@media screen and (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+}
+
+/* Mostrar el logo en pantallas más grandes */
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block; /* Opcional, ya que "block" es el valor predeterminado para elementos <div> */
+    }
+}

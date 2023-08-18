@@ -1,0 +1,46 @@
+/* Estilos generales */
+.contacto {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 1rem; /* Reducción del relleno horizontal en pantallas pequeñas */
+    text-align: center;
+}
+
+/* Título del formulario */
+.contacto__titulo {
+    margin-bottom: 1rem;
+}
+
+/* Formulario de contacto */
+.formulario-contacto {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .formulario-contacto {
+        max-width: 100%; /* Ajustar el ancho máximo en pantallas pequeñas */
+    }
+
+    .contacto {
+        padding: 2rem 0; /* Restaurar el relleno horizontal en pantallas pequeñas */
+    }
+}
+
+

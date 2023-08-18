@@ -1,0 +1,16 @@
+.rodapie {
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 2rem; /* Añadido relleno vertical y unificado el relleno horizontal */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .rodapie {
+        flex-direction: column; /* Cambio a columna en pantallas pequeñas */
+        text-align: center; /* Centrar el contenido en pantallas pequeñas */
+        padding: 2rem; /* Relleno reducido en pantallas pequeñas */
+    }
+}

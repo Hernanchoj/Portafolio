@@ -1,0 +1,8 @@
+.button .button__text {
+    transform: translateX(22px);
+    color: #fff;
+    font-weight: 600;
+  }
+  .button:hover .button__text {
+    color: transparent;
+  }

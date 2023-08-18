@@ -1,0 +1,11 @@
+.banner__imagen {
+    background: url(../../img/adrien-delforge-0LUqdizULdY-unsplash.jpg) no-repeat center / cover;
+    width: 100%;
+    height: calc(100vh - 51px); /* Valor predeterminado para pantallas pequeñas */
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen {
+        height: calc(100vh - 72px); /* Ajuste para pantallas más grandes */
+    }
+}

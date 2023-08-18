@@ -1,0 +1,11 @@
+.sobre {
+    background: #000000;
+    text-align: center;
+    padding: 2.5rem; /* Valor predeterminado */
+}
+
+@media screen and (max-width: 767px) {
+    .sobre {
+        padding: 2.5rem 1rem; /* Relleno ajustado para pantallas más pequeñas */
+    }
+}

@@ -1,0 +1,22 @@
+.receta {
+    background: #fdfdfd;
+    flex: 0 0 calc(50% - 2.5rem); /* Dos elementos por fila en pantallas pequeñas */
+    max-width: 200px; /* Tamaño máximo para mantener el cuadrado con más anchura */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem; /* Reducir el margen inferior */
+}
+
+/* Media Query para tres elementos por fila en pantallas medianas (768px) */
+@media screen and (min-width: 768px) {
+    .receta {
+        flex: 0 0 calc(33.33% - 2.5rem);
+    }
+}
+
+/* Media Query para cuatro elementos por fila en pantallas grandes (992px) */
+@media screen and (min-width: 992px) {
+    .receta {
+        flex: 0 0 calc(25% - 2.5rem);
+    }
+}

@@ -1,0 +1,12 @@
+.persona__imagen {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.persona__imagen--roberta {
+    background-image: url('../../img/hernan\ jose\ colombres.jpg');
+}

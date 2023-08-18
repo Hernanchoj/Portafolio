@@ -1,0 +1,17 @@
+.rodapie__descripcion {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 2rem; /* Reducción del margen en pantallas pequeñas */
+    color: #8C8888;
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .rodapie__descripcion {
+        flex-direction: column; /* Cambio a columna en pantallas pequeñas */
+        align-items: center; /* Centrar horizontalmente el contenido en pantallas pequeñas */
+        margin-left: 0; /* Eliminar el margen lateral en pantallas pequeñas */
+        margin-top: 1rem; /* Agregar un margen superior en pantallas pequeñas */
+    }
+}

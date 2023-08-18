@@ -1,0 +1,4 @@
+.receta__imagen {
+    width: 100%; /* Asegurarse de que todas las imágenes tengan el mismo ancho */
+    height: auto; /* Mantener la proporción original */
+}

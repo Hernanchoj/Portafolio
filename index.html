@@ -43,15 +43,17 @@
     <link rel="stylesheet" href="./assets/css/logo.css">
     <link rel="stylesheet" href="./assets/css/sobre/button.css">
     <link rel="stylesheet" href="./assets/css/contactos/contacto.css">
+    <link rel="stylesheet" href="./assets/css/quienes/listas.css">
+
     
 </head>
 <body>
     <header class="cabecera">
         <img class="logo" src="/assets/img/hernan jose colombres.jpg">
             <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link--activo" href="">Sobre mi</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Experiencia</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
+                <li class="menu__item"><a class="menu__link--activo" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__item"><a class="menu__link" href="#experiencia">Experiencia</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
                
             </ul>
         </nav>
@@ -61,14 +63,14 @@
         <span class="banner-titulo">Hernan Jose Colombres</span>
     </section>
    
-    <section class="quienes">
+    <section id="sobre-mi" class="quienes">
         <h3 class="quienes__titulo">Sobre mi</h3>
-        <p class="quienes__descripcion">Permíteme presentarme</p>
+        
         <div class="personas" style="display: flex; align-items: center; justify-content: center;">
             <div class="persona" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
                 <div class="persona__imagen persona__imagen--roberta"></div>
                 <span class="descripcion">
-                    Soy Hernan Jose Colombres, estudiante de quinto año de abogacía con experiencia en cobro ejecutivo y redacción legal. Poseo conocimientos en programación (HTML, CSS y Javascript) y tengo un fuerte interés en el desarrollo. Busco constantemente aprender nuevas habilidades para avanzar en mi carrera.
+                    Mi nombre es Hernan Jose Colombres, estudiante de quinto año de abogacía. Poseo conocimientos en programación (HTML, CSS y Javascript).
                 </span>
                 <a href="ruta-a-tu-curriculum.pdf" target="_blank" class="boton">Curriculum vitae</a>
             </div>
@@ -80,9 +82,17 @@
         <div class="personas" style="display: flex; align-items: center; justify-content: center;">
             <div class="persona" style="display: flex; align-items: center;">
                 
-                <span class="descripcion">
-                    Disfruto la lectura, el aprendizaje continuo y el tiempo con amigos, reflejando mi deseo de crecer y estar conectado. Mis habilidades incluyen organización, adaptabilidad y resolución de problemas, respaldadas por compromiso y dedicación a resultados de calidad. Estas cualidades son vitales en el ámbito legal y tecnológico, listas para enfrentar desafíos profesionales con entusiasmo.
-                </span>
+                
+                    <div>
+                    <ul class="lista-caracteristicas">
+                        <li class="caracteristicas">Ver futbol</li>
+                        <li class="caracteristicas">Leer</li>
+                        <li class="caracteristicas">Salir con amigos</li>
+                        <li class="caracteristicas">Trabajo en equipo</li>
+                        <li class="caracteristicas">Entusiasmo en aprender cosas nuevas</li>
+                        <li class="caracteristicas">Resolucion de problemas</li>
+                    </ul>
+                    </div>
                 
                 
                   
@@ -96,16 +106,17 @@
     <div class="personas" style="display: flex; align-items: center; justify-content: center;">
         <div class="persona" style="display: flex; align-items: center;">
             
-            <span class="descripcion">
-                
-Comencé mi educación en el Colegio Sagrado Corazón, donde enfoqué en ciencias sociales. Esto me brindó habilidades de pensamiento crítico y análisis, esenciales tanto en el ámbito legal como tecnológico. Luego, me inscribí en la Universidad Nacional de Tucumán para estudiar abogacía, donde he desarrollado habilidades legales, investigación y resolución de conflictos. También estoy ampliando mis habilidades tecnológicas a través de un curso de Front-end en Alura, ganando conocimientos en HTML, CSS y Javascript para crear interfaces interactivas y atractivas.
-    
-                
-            </span>
+            <div>
+                <ul class="lista-caracteristicas">
+                    <li class="caracteristicas">Colegio Sagrado Corazon (Educacion primaria y secundaria)</li>
+                    <li class="caracteristicas">Universidad Nacional de Tucuman (Derecho)</li>
+                    <li class="caracteristicas">Curso Alura (Front-end)</li>
+                </ul>
+                </div>
         </section> 
         
     
-    <section class="sobre">
+    <section id="experiencia" class="sobre">
         <h2 class="sobre__titulo">Experiencia en programacion</h2>
         <p class="sobre__descripcion">Proyectos realizados</p>
     </section>
@@ -138,7 +149,7 @@ Comencé mi educación en el Colegio Sagrado Corazón, donde enfoqué en ciencia
             </div>
         
     </section>
-    <section class="contacto">
+    <section id="contacto" class="contacto">
         <h3 class="contacto__titulo">Contacto</h3>
         <form class="formulario-contacto">
             <label for="nombre">Nombre:</label>

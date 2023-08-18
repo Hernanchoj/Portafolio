@@ -19,7 +19,7 @@
 
 @keyframes typing {
     to {
-        width: 100%; /* Cambio a 100% para que el texto se escriba completamente */
+        width: 100%;
     }
 }
 

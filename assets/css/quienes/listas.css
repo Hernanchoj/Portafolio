@@ -1,0 +1,24 @@
+/* Estilos para la lista de características */
+.lista-caracteristicas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para los elementos de características */
+.caracteristicas {
+  color: #fdfdfd;
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .caracteristicas {
+      font-size: 1.5rem; /* Reducción del tamaño de fuente en pantallas pequeñas */
+      margin-bottom: 5px; /* Reducción del espacio entre elementos en pantallas pequeñas */
+  }
+}
+
+  

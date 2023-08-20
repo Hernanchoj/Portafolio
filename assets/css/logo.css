@@ -1,4 +1,9 @@
 /* Ocultar el logo en pantallas pequeñas */
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
 @media screen and (max-width: 767px) {
     .logo {
         display: none;

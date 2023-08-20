@@ -1,4 +1,4 @@
-.persona__imagen {
+.foto__imagen {
     height: 300px;
     width: 300px;
     background-position: center;
@@ -7,6 +7,6 @@
     border-radius: 100%;
 }
 
-.persona__imagen--roberta {
-    background-image: url('../../img/hernan\ jose\ colombres.jpg');
+.foto__imagen--hernan {
+    background-image: url('../../img/WhatsApp_Image_2023-08-20_at_16_00_20-transformed\ \(1\).jpeg');
 }

@@ -1,7 +1,6 @@
-/* Estilos para el título en la sección "Quiénes somos" */
-.quienes__titulo {
+.cursos__titulo {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-family: monospace;
     font-weight: 400;
     font-size: 3.1875rem;
@@ -10,7 +9,7 @@
 
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {
-    .quienes__titulo {
+    .cursos__titulo {
         font-size: 2.5rem; /* Reducción del tamaño de fuente en pantallas pequeñas */
         margin-bottom: 0.5rem; /* Reducción del margen inferior en pantallas pequeñas */
     }

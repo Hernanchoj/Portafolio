@@ -1,17 +1,21 @@
+/* Estilos para los enlaces del menú */
 .menu__link {
-    color: #e4e4e4;
+    color: #fdfdfd;
     margin-right: 1.25rem;
-    text-decoration: none;
+    font-size: 1.25rem;
+    text-decoration: none; /* Eliminar subrayado predeterminado */
 }
 
+/* Estilos para el enlace activo en el menú */
 .menu__link--activo {
+    font-size: 1.25rem;
     color: #ffffff;
     font-weight: bold;
     margin-right: 1.25rem;
     text-decoration: none;
-    
 }
 
+/* Estilos para el enlace en el menú al pasar el cursor sobre él */
 .menu__link:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Agregar subrayado al pasar el cursor sobre el enlace */
 }

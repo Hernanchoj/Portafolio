@@ -25,15 +25,14 @@
     <link rel="stylesheet" href="./assets/css/receta/receta-contenido.css">
     <link rel="stylesheet" href="./assets/css/receta/receta-imagen.css">
     <link rel="stylesheet" href="./assets/css/receta/receta-descripcion.css">
-    <link rel="stylesheet" href="./assets/css/quienes/quienes.css">
-    <link rel="stylesheet" href="./assets/css/quienes/quienes-titulo.css">
-    <link rel="stylesheet" href="./assets/css/quienes/quienes-descripcion.css">
-    <link rel="stylesheet" href="./assets/css/personas.css">
-    <link rel="stylesheet" href="./assets/css/persona/persona.css">
-    <link rel="stylesheet" href="./assets/css/persona/persona-imagen.css">
-    <link rel="stylesheet" href="./assets/css/persona/persona-funcion.css">
-    <link rel="stylesheet" href="./assets/css/persona/persona-nombre.css">
-    <link rel="stylesheet" href="./assets/css/persona/descripcion.css">
+    <link rel="stylesheet" href="./assets/css/sobre-mi/sobre-mi.css">
+    <link rel="stylesheet" href="./assets/css/sobre-mi/sobre-mi__descripcion.css">
+    <link rel="stylesheet" href="./assets/css/sobre-mi/hobbies-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/fotos.css">
+    <link rel="stylesheet" href="./assets/css/fotos/foto.css">
+    <link rel="stylesheet" href="./assets/css/fotos/foto-imagen.css">
+    
+    <link rel="stylesheet" href="./assets/css/fotos/descripcion.css">
     <link rel="stylesheet" href="./assets/css/rodapie.css">
     <link rel="stylesheet" href="./assets/css/rodapie/rodapie-titulo.css">
     <link rel="stylesheet" href="./assets/css/rodapie/rodapie-descripcion.css">
@@ -43,13 +42,17 @@
     <link rel="stylesheet" href="./assets/css/logo.css">
     <link rel="stylesheet" href="./assets/css/sobre/button.css">
     <link rel="stylesheet" href="./assets/css/contactos/contacto.css">
-    <link rel="stylesheet" href="./assets/css/quienes/listas.css">
-
+    <link rel="stylesheet" href="./assets/css/sobre-mi/listas.css">
+    <link rel="stylesheet" href="./assets/css/hobbies-hab/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/hobbies-hab/hobbies-titulo.css">
+    <link rel="stylesheet" href="./assets/css/cursos/cursos.css">
+    <link rel="stylesheet" href="./assets/css/cursos/cursos__titulo.css">
     
+
 </head>
 <body>
     <header class="cabecera">
-        <img class="logo" src="/assets/img/hernan jose colombres.jpg">
+        
             <ul class="menu__lista">
                 <li class="menu__item"><a class="menu__link--activo" href="#sobre-mi">Sobre mi</a></li>
                 <li class="menu__item"><a class="menu__link" href="#experiencia">Experiencia</a></li>
@@ -63,24 +66,24 @@
         <span class="banner-titulo">Hernan Jose Colombres</span>
     </section>
    
-    <section id="sobre-mi" class="quienes">
-        <h3 class="quienes__titulo">Sobre mi</h3>
+    <section id="sobre-mi" class="sobre__mi">
+        <h3 class="sobre-mi__descripcion">Sobre mi</h3>
         
-        <div class="personas" style="display: flex; align-items: center; justify-content: center;">
-            <div class="persona" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
-                <div class="persona__imagen persona__imagen--roberta"></div>
+        <div class="fotos" style="display: flex; align-items: center; justify-content: center;">
+            <div class="foto" style="display: flex; align-items: center; flex-direction: column; text-align: center;">
+                <div class="foto__imagen foto__imagen--hernan"></div>
                 <span class="descripcion">
-                    Mi nombre es Hernan Jose Colombres, estudiante de quinto año de abogacía. Poseo conocimientos en programación (HTML, CSS y Javascript).
+                    Mi nombre es Hernan Jose Colombres, estudiante de quinto año de abogacía. Cuento con conocimientos en programación (HTML, CSS y Javascript).
                 </span>
-                <a href="https://drive.google.com/file/d/1cOuXSC-xbjBatAFdAoMgbdvIB15lC5O1/view?usp=drivesdk" target="_blank" class="boton">Curriculum vitae</a>
+                <a href="https://www.dropbox.com/scl/fi/2fsgdanjt6j6khg2q2b5p/Curriculum-Vitae-Hernan-Jose-Colombres.pdf?rlkey=cdgi8cop442pyd4ibpp6ww9nb&dl=0" target="_blank" class="boton">Curriculum vitae</a>
             </div>
         </div>
     </section>
-            <section class="quienes">
-                <h3 class="quienes__titulo">Hobbies y habilidades blandas</h3>
+            <section class="hobbies">
+                <h3 class="hobbies__titulo">Hobbies y habilidades blandas</h3>
         
-        <div class="personas" style="display: flex; align-items: center; justify-content: center;">
-            <div class="persona" style="display: flex; align-items: center;">
+        <div class="fotos" style="display: flex; align-items: center; justify-content: center;">
+            <div class="foto" style="display: flex; align-items: center;">
                 
                 
                     <div>
@@ -100,11 +103,11 @@
         </div>
     </section>
 
-    <section class="quienes">
-    <h3 class="quienes__titulo">Formaciones y cursos</h3>
+    <section class="cursos">
+    <h3 class="cursos__titulo">Formaciones y cursos</h3>
         
-    <div class="personas" style="display: flex; align-items: center; justify-content: center;">
-        <div class="persona" style="display: flex; align-items: center;">
+    <div class="fotos" style="display: flex; align-items: center; justify-content: center;">
+        <div class="foto" style="display: flex; align-items: center;">
             
             <div>
                 <ul class="lista-caracteristicas">
@@ -132,7 +135,7 @@
             </div>
         </div>
         <div class="receta">
-            <img class="receta__imagen" alt="Casa de raco" src="./assets/img/Ingoude Company (4).jpg" />
+            <img class="receta__imagen" alt="Casa de raco" src="./assets/img/Ingoude Company (5).png" />
             <div class="receta__contenido">
                 <h4 class="receta__titulo">Casa de Raco</h4>
                 <p class="receta__descripcion">Haz click para ver el proyecto</p>
@@ -170,11 +173,11 @@
   
     <footer class="rodapie">
         <h3 class="rodapie__titulo">HERNAN JOSE COLOMBRES 2023</h2>
-        <p class="rodapie__descripcion">Contacto</p>
+        <p class="rodapie__descripcion">Redes</p>
         <ul class="rodapie__lista">
-            <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="WhatsApp" src="./assets/img/WhatsApp.png"></a></li>
-            <li class="rodapie__item"><a class="rodapie__icon" href="#" ><img alt="Email" src="./assets/img/email.png"></a></li>
-            <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="Instagram" src="./assets/img/Instagram.png"></a></li>
+            <li class="rodapie__item"><a class="rodapie__icon" href="https://www.linkedin.com/in/hernan-colombres/"><img alt="linkedin" src="./assets/img/linkedin.png"></a></li>
+            <li class="rodapie__item"><a class="rodapie__icon" href="mailto:hernancolombres123@gmail.com" ><img alt="Email" src="./assets/img/email.png"></a></li>
+            <li class="rodapie__item"><a class="rodapie__icon" href="https://www.instagram.com/hernan_colombres/"><img alt="Instagram" src="./assets/img/Instagram.png"></a></li>
         </ul>
     </footer>
 </body>

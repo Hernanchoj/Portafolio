@@ -1,5 +1,5 @@
-.personas {
-    background: #000000;
+.fotos {
+    
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
@@ -8,7 +8,7 @@
 
 /* Media Query para pantallas medianas (768px) */
 @media screen and (min-width: 768px) {
-    .personas {
+    .fotos {
         flex-direction: row; /* Cambio a fila en pantallas medianas */
     }
 }

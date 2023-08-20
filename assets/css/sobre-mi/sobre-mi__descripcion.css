@@ -1,0 +1,17 @@
+/* Estilos para el título en la sección "Quiénes somos" */
+.sobre-mi__descripcion {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .sobre-mi__descripcion {
+        font-size: 2.5rem; /* Reducción del tamaño de fuente en pantallas pequeñas */
+        margin-bottom: 0.5rem; /* Reducción del margen inferior en pantallas pequeñas */
+    }
+}

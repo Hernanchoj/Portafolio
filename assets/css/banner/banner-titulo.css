@@ -11,16 +11,17 @@
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    width: 0;
-    overflow: hidden;
+    width: 21ch;
+    
 
-    animation: typing 5s steps(21) 1s forwards, blink .5s infinite step-end alternate;
+    animation: typing 3s steps(21) , blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 @keyframes typing {
-    to {
-        width: 100%;
-    }
+    
+      from { width: 0}
+    
 }
 
 @keyframes blink {

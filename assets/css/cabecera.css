@@ -1,10 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .cabecera {
-    align-items: center;
-    background: #000000;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background: #393E46;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave si lo deseas */
+    transition: transform 0.3s ease; /* Agrega una transición suave al desplazamiento */
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 767px) {

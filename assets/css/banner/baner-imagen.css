@@ -1,5 +1,5 @@
 .banner__imagen {
-    background: url(../../img/AnyConv.com__adrien-delforge-0LUqdizULdY-unsplash.webp) no-repeat center / cover;
+    background: url(../../img/b3fd9044-2960-461a-a6dc-26c161940750.webp) no-repeat center / cover;
     width: 100%;
     height: calc(100vh - 51px); /* Valor predeterminado para pantallas pequeñas */
 }
@@ -7,5 +7,6 @@
 @media screen and (min-width: 768px) {
     .banner__imagen {
         height: calc(100vh - 72px); /* Ajuste para pantallas más grandes */
+        
     }
 }

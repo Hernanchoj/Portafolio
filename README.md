@@ -1,2 +1,2 @@
 # Portafolio
-Mi porfalio realizado como challenge de alura
+Mi porfolio realizado como challenge de alura
